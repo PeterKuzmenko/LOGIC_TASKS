@@ -10,9 +10,8 @@ function deleteClones(arr) {
 
         if (set.size !== size) {
             result.push(item);
+            size++;
         }
-
-        size++;
     }
 
     return result;
